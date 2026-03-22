@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #e0e6f0;
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: #08142a;
+}
+
+.navbar-brand {
+    color: #163d7a;
+}
+
+.navbar .nav-link.active {
+    color: #163d7a;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.492);
+}
+
+header {
+    background: linear-gradient(to right, #0b1d3a, #08142a);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.lead {
+    color: #aab8d6;
+}
+
+.btn-info {
+    background-color: #163d7a;
+    border: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.btn-info:hover {
+    background-color: #1f4f99;
+    transform: scale(1.05);
+}
+
+.btn-outline-info {
+    border: 1px solid #3a6fcf;
+    color: #3a6fcf;
+    transition: 0.3s;
+}
+
+.btn-outline-info:hover {
+    background-color: #3a6fcf;
+    color: #fff;
+}
+
+
+header img {
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.footer-section {
+    background-color: #08142a;
+    color: #aab8d6;
+}
+
+
+.social-icons a {
+    color: #aab8d6;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+
+.about-section {
+    background-color: #f0f4f8;
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    color: #0b1d3a;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-section h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #163d7a;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.about-section p {
+    color: #1a2a4d;
+    line-height: 1.7;
+}
+
+
+.about-section strong {
+    color: #0b1d3a; 
+}
+
+.skills-card {
+    background-color: #ffffff; 
+    border: 1px solid #163d7a; 
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+
+.skills-card h3 {
+    color: #0b1d3a;
+    margin-bottom: 15px;
+}
+
+
+.skills-card ul li {
+    color: #1a2a4d; 
+    padding-left: 20px;
+    position: relative;
+}
+
+
+.skills-card ul li::before {
+    content: "•";
+    color: #163d7a; 
+    position: absolute;
+    left: 0;
+}
+
+
+.skills-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+}
+
+
+
+#skills {
+    background-color: #e6f0fa; 
+    color: #0b1d3a; 
+    padding: 60px 0;
+}
+
+
+#skills h2 {
+    color: #0b1d3a; 
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#skills h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #3a6fcf;
+    display: block;
+    margin: 10px auto 0;
+}
+
+#skills .col-md-4 div {
+    background-color: #08142a;
+    border: 1px solid #163d7a;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+
+#skills .col-md-4 div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+#skills i {
+    color: #3a6fcf; 
+    font-size: 3rem;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+#skills i:hover {
+    color: #1f4f99; 
+}
+
+
+#skills h4 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+#skills p {
+    color: #aab8d6;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+
+#projects {
+    background-color: #cdd9ea;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+
+#projects h2 {
+    color: #163d7a;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#projects h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #3a6fcf;
+    display: block;
+    margin: 10px auto 0;
+}
+
+
+#projects .card {
+    background-color: #0b1d3a; 
+    border: 1px solid #163d7a; 
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#projects .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+
+#projects .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+
+#projects .card-title {
+    color: #ffffff;
+}
+
+#projects .card-text {
+    color: #aab8d6;
+}
+
+#projects .btn-info {
+    background-color: #163d7a;
+    border: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+#projects .btn-info:hover {
+    background-color: #1f4f99;
+    transform: scale(1.05);
+}
+
+#projects .btn-outline-info {
+    border: 1px solid #3a6fcf;
+    color: #3a6fcf;
+    transition: 0.3s;
+}
+
+#projects .btn-outline-info:hover {
+    background-color: #3a6fcf;
+    color: #fff;
+}
+
+
+
+#contact {
+    background-color: #e6f0fa; 
+    color: #0b1d3a; 
+    padding: 60px 0;
+}
+
+#contact h2 {
+    color: #0b1d3a;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#contact h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #3a6fcf;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+
+#contact .contact-card {
+    background-color: #10357a;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+#contact .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+#contact .contact-card h4 {
+    margin-bottom: 15px;
+}
+
+#contact .contact-card ul li {
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+#contact .contact-card ul li i {
+    color: #3a6fcf;
+    margin-right: 10px;
+}
+
+#contact .social-icons a {
+    color: #3a6fcf;
+    margin-right: 15px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+}
+
+#contact .social-icons a:hover {
+    color: #1f4f99;
+    transform: scale(1.2);
+}
+
+#contact .form-control {
+    background-color: #ffffff;
+    border: 1px solid #3a6fcf;
+    border-radius: 8px;
+    color: #0b1d3a;
+    transition: 0.3s;
+}
+
+#contact .form-control:focus {
+    border-color: #163d7a;
+    box-shadow: 0 0 5px #3a6fcf;
+    outline: none;
+}
+
+#contact .btn-primary {
+    background-color: #163d7a;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+#contact .btn-primary:hover {
+    background-color: #1f4f99;
+    transform: scale(1.05);
+}

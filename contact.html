@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+               mirna mohamed
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="py-5">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">
+                        contact me
+                    </h1>
+                    <p class="lead text-secondary">
+                        A passionate Web Developer student at WE Schools.
+                        I build clean, responsive, and user-friendly websites.
+                    </p>
+                    <div class="mt-4">
+                        <a href="/project.html" class="btn btn-info btn-lg text-white px-4 me-2 shadow-sm">
+                            My Work
+                        </a>
+                        <a href="./contact.html" class="btn btn-outline-info btn-lg px-4">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="image/header.jpeg" class="img-fluid rounded-top" alt="" />
+                </div>
+            </div>
+        </div>
+    </header>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-5">Get In Touch</h2>
+        <div class="row g-5">
+            <!-- CONTACT INFO -->
+            <div class="col-lg-4">
+                <div class="contact-card p-4 rounded shadow-sm">
+                    <h4>Contact Information</h4>
+                    <p>Feel free to reach out for collaborations or inquiries.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li><i class="fas fa-envelope"></i> mirna.mohamed@example.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</li>
+                        <li><i class="fas fa-phone"></i> +20 123 456 7890</li>
+                    </ul>
+                    <div class="social-icons mt-4">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="col-lg-8">
+                <form id="contactForm" class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="formFeedback" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="footer-section py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2026 mirna Mohamed. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
